@@ -16,7 +16,7 @@ export default function App() {
       const {status} = await Camera.requestCameraPermissionsAsync()
 
       if(status  !== 'granted'){
-        alert('Desculpe, precisamos da permissão da câmera para fazer isso funcionar!');
+        alert('Desculpe, precisamos da permissão');
       }
 
     })()
